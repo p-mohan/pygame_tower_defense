@@ -130,7 +130,7 @@ class Game:
                 if time.time() - self.timer >= random.randrange(1, 60) / 2:
                     self.timer = time.time()
                     #self.enemies.append(random.choice([Club(), Scorpion(), Wizard()]))
-                    print("Gen enemies")
+                    #print("Gen enemies")
                     self.gen_enemies()
             pos = pygame.mouse.get_pos()
 
